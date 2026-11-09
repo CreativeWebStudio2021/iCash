@@ -1,4 +1,4 @@
-# Staging: non indicizzare (icash.cwstudio.it)
+# Staging: non indicizzare
 User-agent: *
 Disallow: /
 

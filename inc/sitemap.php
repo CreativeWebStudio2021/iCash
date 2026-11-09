@@ -57,6 +57,22 @@ function sitemap_entries(): array
             'lastmod' => (string) ($p['updated'] ?? ''),
         ];
     }
+    if (is_file(__DIR__ . '/aggiornamenti.php')) {
+        require_once __DIR__ . '/aggiornamenti.php';
+        foreach (aggiornamenti_pubblicati() as $a) {
+            $images = [];
+            if (!empty($a['immagine'])) {
+                $images[] = ['loc' => (string) $a['immagine'], 'title' => (string) $a['titolo']];
+            }
+            $pages[] = [
+                'path' => '/aggiornamento/' . $a['slug'],
+                'title' => (string) $a['titolo'],
+                'group' => 'Aggiornamenti',
+                'images' => $images,
+                'lastmod' => (string) ($a['data_pub'] ?? ''),
+            ];
+        }
+    }
     return $pages;
 }
 

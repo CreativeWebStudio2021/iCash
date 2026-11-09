@@ -176,6 +176,19 @@ function prodotto_label(array $p): string
     return trim((string) ($p['brand'] ?? '') . ' ' . (string) ($p['model'] ?? ''));
 }
 
+/** @return list<array<string,mixed>> */
+function prodotti_evidenza(): array
+{
+    $out = [];
+    foreach (evidenza_ids() as $id) {
+        $p = prodotto_by_id($id);
+        if ($p !== null) {
+            $out[] = $p;
+        }
+    }
+    return $out;
+}
+
 function categorie(): array
 {
     return [

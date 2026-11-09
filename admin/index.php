@@ -9,45 +9,21 @@ $pub = count(array_filter($all, static fn ($p) => !empty($p['published'])));
 $draft = count($all) - $pub;
 $evidenza = evidenza_ids();
 $csrf = admin_csrf();
+admin_layout_start('Prodotti', 'prodotti');
 ?>
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catalogo | Backoffice iCash</title>
-  <?php admin_favicons(); ?>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/admin.css?v=20261105a">
-</head>
-<body class="adm-shell">
-  <header class="bar">
-    <a class="brand" href="/admin/index.php" title="Catalogo iCash">
-      <img src="/assets/img/brand/logo-white.png?v=20260328" alt="iCash" width="120" height="60">
-    </a>
-    <nav>
-      <a class="btn-bar" href="/admin/edit.php">Nuovo prodotto</a>
-      <a href="/" target="_blank" rel="noopener">Sito</a>
-      <a href="/landing/registratori-telematici" target="_blank" rel="noopener">Landing registratori</a>
-      <a href="/landing/bar-ristoranti" target="_blank" rel="noopener">Landing bar/ristoranti</a>
-      <a href="/admin/logout.php">Esci</a>
-    </nav>
-  </header>
-  <main class="adm-main">
     <div class="page-head">
       <div>
+        <p class="section-kicker section-kicker-prodotti">Catalogo</p>
         <h1>Prodotti</h1>
         <p class="sub"><?= (int) count($all) ?> schede · <?= (int) $pub ?> visibili · <?= (int) $draft ?> nascoste</p>
       </div>
       <a class="btn primary" href="/admin/edit.php">Nuovo prodotto</a>
     </div>
 
-    <section class="panel evidenza-bar" id="evidenza-bar">
+    <section class="panel panel-accent-prodotti evidenza-bar" id="evidenza-bar">
       <div>
         <h2>In evidenza in home</h2>
-        <p class="hint" style="margin:0">Seleziona fino a 4 prodotti pubblicati. Il salvataggio è immediato, senza ricaricare la pagina.</p>
+        <p class="hint" style="margin:0">Seleziona fino a 4 prodotti pubblicati. Il salvataggio è immediato.</p>
       </div>
       <div class="evidenza-status">
         <span class="badge badge-on" id="evidenza-count"><?= (int) count($evidenza) ?> / 4</span>
@@ -57,7 +33,7 @@ $csrf = admin_csrf();
 
     <section class="panel">
       <h2>Landing page</h2>
-      <p class="hint">Pagine dedicate per Ads e campagne. Si aprono in una nuova scheda.</p>
+      <p class="hint">Pagine dedicate per Ads e campagne.</p>
       <p class="save-row" style="margin:0">
         <a class="btn ghost" href="/landing/registratori-telematici" target="_blank" rel="noopener">Registratori telematici</a>
         <a class="btn ghost" href="/landing/bar-ristoranti" target="_blank" rel="noopener">Bar e ristoranti</a>
@@ -160,18 +136,9 @@ $csrf = admin_csrf();
         </tbody>
       </table>
     </div>
-  </main>
-  <script>
-    window.EVIDENZA = {
-      csrf: <?= json_encode($csrf, JSON_UNESCAPED_UNICODE) ?>,
-      max: 4,
-      ids: <?= json_encode($evidenza, JSON_UNESCAPED_UNICODE) ?>
-    };
-  </script>
-  <script>
-    window.ORDINE = { csrf: <?= json_encode($csrf, JSON_UNESCAPED_UNICODE) ?> };
-  </script>
-  <script src="/assets/js/admin-evidenza.js?v=20260327x"></script>
-  <script src="/assets/js/admin-ordine.js?v=20260328h"></script>
-</body>
-</html>
+<?php
+$scripts = '<script>window.EVIDENZA={csrf:' . json_encode($csrf, JSON_UNESCAPED_UNICODE) . ',max:4,ids:' . json_encode($evidenza, JSON_UNESCAPED_UNICODE) . '};</script>'
+    . '<script>window.ORDINE={csrf:' . json_encode($csrf, JSON_UNESCAPED_UNICODE) . '};</script>'
+    . '<script src="/assets/js/admin-evidenza.js?v=20260327x"></script>'
+    . '<script src="/assets/js/admin-ordine.js?v=20260328h"></script>';
+admin_layout_end($scripts);

@@ -276,20 +276,21 @@ $titleName = $isNew ? 'Nuovo prodotto' : prodotto_label($product);
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/admin.css?v=20261105a">
+  <link rel="stylesheet" href="/assets/css/admin.css?v=20261109e">
 </head>
 <body class="adm-shell">
   <header class="bar">
-    <a class="brand" href="/admin/index.php" title="Catalogo iCash">
+    <a class="brand" href="/admin/index.php" title="Backoffice iCash">
       <img src="/assets/img/brand/logo-white.png?v=20260328" alt="iCash" width="120" height="60">
+      <span class="brand-tag">Backoffice</span>
     </a>
-    <nav>
-      <a href="/admin/index.php">Elenco prodotti</a>
+    <nav class="bar-nav" aria-label="Sezioni admin">
+      <a class="nav-pill is-on" href="/admin/index.php">Prodotti</a>
+      <a class="nav-pill" href="/admin/aggiornamenti.php">Aggiornamenti</a>
       <?php if (!$isNew): ?>
-        <a href="/prodotto/<?= e((string) $product['id']) ?>" target="_blank" rel="noopener">Anteprima pubblica</a>
+        <a href="/prodotto/<?= e((string) $product['id']) ?>" target="_blank" rel="noopener">Anteprima</a>
       <?php endif; ?>
-      <a href="/landing/registratori-telematici" target="_blank" rel="noopener">Landing registratori</a>
-      <a href="/landing/bar-ristoranti" target="_blank" rel="noopener">Landing bar/ristoranti</a>
+      <a href="/" target="_blank" rel="noopener">Sito</a>
       <a href="/admin/logout.php">Esci</a>
     </nav>
   </header>
@@ -297,6 +298,7 @@ $titleName = $isNew ? 'Nuovo prodotto' : prodotto_label($product);
   <main class="adm-main">
     <div class="page-head">
       <div>
+        <p class="section-kicker section-kicker-prodotti">Catalogo</p>
         <h1><?= e($titleName) ?></h1>
         <p class="sub"><?= $isNew ? 'Crea una nuova scheda catalogo' : 'Modifica scheda e contenuti a blocchi' ?></p>
       </div>

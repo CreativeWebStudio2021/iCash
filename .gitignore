@@ -1,2 +1,6 @@
 .vscode/sftp.json
 *.secret.php
+data/*.sqlite
+data/*.sqlite-*
+assets/img/upload/aggiornamenti/*
+!assets/img/upload/aggiornamenti/.gitkeep
