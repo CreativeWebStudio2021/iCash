@@ -2,6 +2,7 @@
 declare(strict_types=1);
 require_once __DIR__ . '/inc/config.php';
 require_once __DIR__ . '/inc/prodotti.php';
+require_once __DIR__ . '/inc/aggiornamenti.php';
 $page = 'home';
 $title = 'Registratori di cassa e POS a Ciampino | iCash';
 $description = 'iCash è il partner di fiducia per il registratore di cassa: vendita, noleggio e assistenza per negozi, farmacie, supermercati, bar e ristoranti.';
@@ -15,6 +16,11 @@ $inEvidenza = array_values(array_filter(
     evidenza_ids(),
     static fn (string $id): bool => isset($byId[$id])
 ));
+$homeAggiornamenti = array_slice(
+    array_merge(aggiornamenti_dinamici(true), aggiornamenti_fissi()),
+    0,
+    6
+);
 ?>
 <section class="hero" id="hero" aria-roledescription="carousel" aria-label="Presentazione iCash">
   <div class="hero-slider">
@@ -226,26 +232,32 @@ $inEvidenza = array_values(array_filter(
   <div class="wrap">
     <div class="section-head">
       <h2>Aggiornamenti per chi ha il punto cassa</h2>
-      <a class="text-link" href="/aggiornamenti" title="Aggiornamenti su registratori e adempimenti">Vedi gli argomenti</a>
+      <a class="text-link" href="/aggiornamenti" title="Aggiornamenti su registratori e adempimenti">Vedi tutti</a>
     </div>
-    <div class="topic-index" data-motion="stagger">
-      <article class="enter enter-up">
-        <h3><a href="/aggiornamenti#pagamenti">Registratore e pagamenti elettronici</a></h3>
-        <p>Il collegamento tra registratore telematico e POS è un adempimento che va verificato sul banco, non dato per scontato.</p>
-      </article>
-      <article class="enter enter-up">
-        <h3><a href="/aggiornamenti#bilancio">Leggi di bilancio</a></h3>
-        <p>Corrispettivi, scontrino e fattura cambiano spesso. Quando una norma tocca la cassa, la spieghiamo qui.</p>
-      </article>
-      <article class="enter enter-up">
-        <h3><a href="/aggiornamenti#corrispettivi">Adempimenti del registratore</a></h3>
-        <p>Invio dei corrispettivi e documento commerciale: il registratore deve restare allineato.</p>
-      </article>
-      <article class="enter enter-up">
-        <h3><a href="/aggiornamenti#fattura">Fatturazione elettronica</a></h3>
-        <p>Chi emette anche fatture ha un secondo canale, oltre allo scontrino. Gestionale e registratore si scelgono di conseguenza.</p>
-      </article>
-    </div>
+    <?php if ($homeAggiornamenti === []): ?>
+      <p>Non ci sono aggiornamenti pubblicati al momento.</p>
+    <?php else: ?>
+      <div class="news-grid news-grid-home" data-motion="stagger">
+        <?php foreach ($homeAggiornamenti as $item):
+            $slug = (string) $item['slug'];
+            $titolo = (string) $item['titolo'];
+            $excerpt = aggiornamento_card_text($item);
+            $isFisso = aggiornamento_is_fisso($item);
+            $dataLabel = $isFisso ? '' : aggiornamento_data_label((string) $item['data_pub']);
+            ?>
+          <a class="news-card news-card-text enter enter-up" href="/aggiornamento/<?= e($slug) ?>" title="<?= e($titolo) ?>">
+            <span class="news-card-body">
+              <?php if ($dataLabel !== ''): ?>
+                <time datetime="<?= e((string) $item['data_pub']) ?>"><?= e($dataLabel) ?></time>
+              <?php endif; ?>
+              <strong><?= e($titolo) ?></strong>
+              <span class="news-card-excerpt"><?= e($excerpt) ?></span>
+              <span class="text-link">Leggi</span>
+            </span>
+          </a>
+        <?php endforeach; ?>
+      </div>
+    <?php endif; ?>
   </div>
 </section>
 

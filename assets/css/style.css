@@ -1246,6 +1246,10 @@ a.btn-wa-solid:hover {
 @media (min-width: 800px) {
   .news-grid { grid-template-columns: 1fr 1fr; }
 }
+.news-grid-home {
+  grid-template-columns: 1fr 1fr;
+  gap: 0.85rem;
+}
 a.news-card {
   display: grid;
   grid-template-rows: auto 1fr;
