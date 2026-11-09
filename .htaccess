@@ -1,0 +1,60 @@
+DirectoryIndex index.php
+
+# Anti-indicizzazione solo su staging (non su icashregister.it)
+<IfModule mod_headers.c>
+  <If "%{HTTP_HOST} == 'icash.cwstudio.it'">
+    Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet"
+  </If>
+</IfModule>
+
+<FilesMatch "\.(jsonl)$">
+  Require all denied
+</FilesMatch>
+
+RewriteEngine On
+RewriteRule ^data/ - [F,L]
+RewriteRule ^materiale/ - [F,L]
+RewriteRule ^inc/ - [F,L]
+
+RewriteRule ^amministrazione\.html$ admin/login.php [L]
+
+RewriteRule ^azienda/?$ azienda.php [L]
+RewriteRule ^soluzioni/?$ soluzioni.php [L]
+RewriteRule ^prodotti/?$ prodotti.php [L]
+RewriteRule ^assistenza/?$ assistenza.php [L]
+RewriteRule ^aggiornamenti/?$ aggiornamenti.php [L]
+RewriteRule ^contatti/?$ contatti.php [L]
+RewriteRule ^grazie/?$ grazie.php [L,QSA]
+RewriteRule ^privacy/?$ privacy.php [L]
+RewriteRule ^cookie/?$ cookie.php [L]
+RewriteRule ^mappa-del-sito/?$ mappa.php [L]
+RewriteRule ^fonti-immagini/?$ fonti.php [L]
+RewriteRule ^prodotto/([a-z0-9-]+)/?$ prodotto.php?id=$1 [L,QSA]
+RewriteRule ^landing/registratori-telematici/?$ landing/registratori-telematici.php [L]
+RewriteRule ^landing/bar-ristoranti/?$ landing/bar-ristoranti.php [L]
+
+RewriteCond %{THE_REQUEST} \s/+prodotto\.php\?id=([a-z0-9-]+) [NC]
+RewriteRule ^prodotto\.php$ /prodotto/%1? [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+azienda\.php [NC]
+RewriteRule ^azienda\.php$ /azienda [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+soluzioni\.php [NC]
+RewriteRule ^soluzioni\.php$ /soluzioni [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+prodotti\.php [NC]
+RewriteRule ^prodotti\.php$ /prodotti [R=301,L,QSA]
+RewriteCond %{THE_REQUEST} \s/+assistenza\.php [NC]
+RewriteRule ^assistenza\.php$ /assistenza [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+aggiornamenti\.php [NC]
+RewriteRule ^aggiornamenti\.php$ /aggiornamenti [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+contatti\.php [NC]
+RewriteRule ^contatti\.php$ /contatti [R=301,L,QSA]
+RewriteCond %{THE_REQUEST} \s/+privacy\.php [NC]
+RewriteRule ^privacy\.php$ /privacy [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+cookie\.php [NC]
+RewriteRule ^cookie\.php$ /cookie [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+landing/registratori-telematici\.php [NC]
+RewriteRule ^landing/registratori-telematici\.php$ /landing/registratori-telematici [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+landing/bar-ristoranti\.php [NC]
+RewriteRule ^landing/bar-ristoranti\.php$ /landing/bar-ristoranti [R=301,L]
+<Files "smtp.secret.php">
+  Require all denied
+</Files>

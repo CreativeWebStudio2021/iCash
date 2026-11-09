@@ -1,0 +1,1022 @@
+[
+    {
+        "id": "rch-ape3",
+        "brand": "RCH",
+        "model": "APE 3 RT",
+        "category": "registratori",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/ape3.webp",
+        "alt": "Registratore di cassa RCH APE 3 RT",
+        "summary": "Registratore telematico Android con doppio display touch, indicato in scheda per negozi, ristorazione, alimentari, beauty, hospitality e servizi.",
+        "features": [
+            "Display operatore touch 10,1″ e display cliente touch 4″",
+            "Stampante termica 80 mm, 200 mm/s, taglierina automatica",
+            "Android 13, CPU Qualcomm Snapdragon octa-core",
+            "Memoria di massa 64 GB eMMC, giornale elettronico su microSD",
+            "In scheda: collegabile a soluzioni cloud RCH (ATS 3, Invoice Box, XStore, Pay SoftPos)"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Registratore telematico Android con doppio display touch, indicato in scheda per negozi, ristorazione, alimentari, beauty, hospitality e servizi."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Display operatore touch 10,1″ e display cliente touch 4″",
+                    "Stampante termica 80 mm, 200 mm/s, taglierina automatica",
+                    "Android 13, CPU Qualcomm Snapdragon octa-core",
+                    "Memoria di massa 64 GB eMMC, giornale elettronico su microSD",
+                    "In scheda: collegabile a soluzioni cloud RCH (ATS 3, Invoice Box, XStore, Pay SoftPos)"
+                ]
+            },
+            {
+                "type": "specifiche",
+                "titolo": "Dati di scheda",
+                "voci": [
+                    "Dimensioni: L268 x P307 x H118 mm, 1900 g",
+                    "Display cliente: TFT 4″ touch, 800×480",
+                    "Display operatore: TFT 10,1″ touch, 1280×800",
+                    "Stampante: termica 80 mm, 200 mm/s, 8 dot/mm, taglierina automatica",
+                    "Rotolo: larghezza 80 mm, diametro 80 mm",
+                    "CPU: Qualcomm Snapdragon octa-core 2 GHz",
+                    "Sistema: Android 13",
+                    "Memoria: 64 GB eMMC, RAM 4 GB",
+                    "Giornale: elettronico su microSD",
+                    "Connettività: LTE, Wi-Fi, Bluetooth, Ethernet, 4 USB, RS232, cassetto RJ12",
+                    "NFC: lettore contactless lato cliente",
+                    "Fotocamera: 5 MP, lettura barcode software",
+                    "Alimentazione: 24 Vdc, 60 W",
+                    "Categorie in scheda: ristorazione, alimentari, negozi, beauty, hospitality, servizi"
+                ]
+            }
+        ],
+        "pdf": "/assets/pdf/rch-ape3.pdf",
+        "gallery": [
+            {
+                "src": "/assets/img/prodotti/gallery/rch-ape3-1.jpg",
+                "alt": "RCH APE 3 RT — pagina 1 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-ape3-2.jpg",
+                "alt": "RCH APE 3 RT — pagina 2 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-ape3-3.jpg",
+                "alt": "RCH APE 3 RT — pagina 3 della scheda tecnica"
+            }
+        ],
+        "scheda_testo": ""
+    },
+    {
+        "id": "rch-onda",
+        "brand": "RCH",
+        "model": "Onda RT",
+        "category": "registratori",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/onda.webp",
+        "alt": "Registratore di cassa RCH Onda RT",
+        "summary": "Registratore telematico RCH della linea Onda RT, proposto per il punto cassa di negozi, bar e ristoranti.",
+        "features": [
+            "Registratore telematico per l’emissione del documento commerciale",
+            "In scheda: adatto a ristorazione, alimentari, negozi, beauty e servizi",
+            "In scheda: previsto l’uso con Invoice Box, Pay SoftPos e backoffice XStore"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Registratore telematico RCH della linea Onda RT, proposto per il punto cassa di negozi, bar e ristoranti."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Registratore telematico per l’emissione del documento commerciale",
+                    "In scheda: adatto a ristorazione, alimentari, negozi, beauty e servizi",
+                    "In scheda: previsto l’uso con Invoice Box, Pay SoftPos e backoffice XStore"
+                ]
+            },
+            {
+                "type": "elenco",
+                "titolo": "Dalla scheda Onda RT",
+                "voci": [
+                    "Indicato per ristorazione, alimentari, negozi, beauty e servizi",
+                    "In scheda: fatturazione Invoice Box, Pay SoftPos e backoffice XStore"
+                ]
+            }
+        ],
+        "pdf": "/assets/pdf/rch-onda.pdf",
+        "gallery": [
+            {
+                "src": "/assets/img/prodotti/gallery/rch-onda-1.jpg",
+                "alt": "RCH Onda RT — pagina 1 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-onda-2.jpg",
+                "alt": "RCH Onda RT — pagina 2 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-onda-3.jpg",
+                "alt": "RCH Onda RT — pagina 3 della scheda tecnica"
+            }
+        ],
+        "scheda_testo": ""
+    },
+    {
+        "id": "rch-print30",
+        "brand": "RCH",
+        "model": "Print! 3.0 RT",
+        "category": "registratori",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/print30.webp",
+        "alt": "Stampante fiscale RCH Print 3.0 RT",
+        "summary": "Stampante fiscale telematica con tastiera e display, per punti cassa che usano un PC o un terminale touch.",
+        "features": [
+            "Versione telematica RT",
+            "Tastiera e display integrati",
+            "Indicata come periferica fiscale di un sistema POS"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Stampante fiscale telematica con tastiera e display, per punti cassa che usano un PC o un terminale touch."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Versione telematica RT",
+                    "Indicata come periferica fiscale di un sistema POS"
+                ]
+            },
+            {
+                "type": "elenco",
+                "titolo": "Dalla scheda Print! 3.0 RT",
+                "voci": [
+                    "Indicato per ristorazione, alimentari, bar, commercio, beauty e servizi",
+                    "Scontrino condivisibile in digitale tramite QR code",
+                    "In scheda: Pay SoftPos"
+                ]
+            }
+        ],
+        "pdf": "/assets/pdf/rch-print30.pdf",
+        "gallery": [
+            {
+                "src": "/assets/img/prodotti/gallery/rch-print30-1.jpg",
+                "alt": "RCH Print! 3.0 RT — pagina 1 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-print30-2.jpg",
+                "alt": "RCH Print! 3.0 RT — pagina 2 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-print30-3.jpg",
+                "alt": "RCH Print! 3.0 RT — pagina 3 della scheda tecnica"
+            }
+        ],
+        "scheda_testo": ""
+    },
+    {
+        "id": "rch-print30-nf",
+        "brand": "RCH",
+        "model": "Print! 3.0 non fiscale",
+        "category": "periferiche",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/print30-nf.webp",
+        "alt": "Stampante RCH Print 3.0 non fiscale",
+        "summary": "Stampante non fiscale della serie Print! 3.0, per preconti, comande o stampe di servizio. Non sostituisce il registratore telematico.",
+        "features": [
+            "Versione non fiscale, distinta dal modello RT",
+            "Uso tipico: stampe di servizio in negozio o in sala"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Stampante non fiscale della serie Print! 3.0, per preconti, comande o stampe di servizio. Non sostituisce il registratore telematico."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Versione non fiscale, distinta dal modello RT",
+                    "Uso tipico: stampe di servizio in negozio o in sala"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "rch-walle",
+        "brand": "RCH",
+        "model": "Wall-E MEC RT",
+        "category": "registratori",
+        "audience": [
+            "negozi"
+        ],
+        "image": "/assets/img/prodotti/walle.webp",
+        "alt": "Registratore RCH Wall-E MEC RT",
+        "summary": "Registratore telematico compatto della linea Wall-E MEC, per punti cassa con ingombro contenuto.",
+        "features": [
+            "Registratore telematico RT",
+            "Linea meccanica MEC, distinta dalla versione Digital"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Registratore telematico compatto della linea Wall-E MEC, per punti cassa con ingombro contenuto."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Registratore telematico RT",
+                    "Linea meccanica MEC, distinta dalla versione Digital"
+                ]
+            },
+            {
+                "type": "elenco",
+                "titolo": "Dalla scheda Wall-E MEC",
+                "voci": [
+                    "Indicato per ristorazione, alimentari, negozi e beauty",
+                    "In scheda: Invoice Box, Pay SoftPos e backoffice XStore"
+                ]
+            }
+        ],
+        "pdf": "/assets/pdf/rch-walle.pdf",
+        "gallery": [
+            {
+                "src": "/assets/img/prodotti/gallery/rch-walle-1.jpg",
+                "alt": "RCH Wall-E MEC RT — pagina 1 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-walle-2.jpg",
+                "alt": "RCH Wall-E MEC RT — pagina 2 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-walle-3.jpg",
+                "alt": "RCH Wall-E MEC RT — pagina 3 della scheda tecnica"
+            }
+        ],
+        "scheda_testo": ""
+    },
+    {
+        "id": "rch-walle-digital",
+        "brand": "RCH",
+        "model": "Wall-E MEC Digital",
+        "category": "registratori",
+        "audience": [
+            "negozi"
+        ],
+        "image": "/assets/img/prodotti/walle-digital.webp",
+        "alt": "Registratore RCH Wall-E MEC Digital",
+        "summary": "Variante digitale della linea Wall-E MEC, per chi preferisce un’interfaccia più aggiornata sullo stesso formato.",
+        "meta_title": "",
+        "meta_description": "",
+        "pdf": "/assets/pdf/rch-walle-digital.pdf",
+        "gallery": [
+            {
+                "src": "/assets/img/prodotti/gallery/rch-walle-digital-1.jpg",
+                "alt": "RCH Wall-E MEC Digital — pagina 1 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-walle-digital-2.jpg",
+                "alt": "RCH Wall-E MEC Digital — pagina 2 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-walle-digital-3.jpg",
+                "alt": "RCH Wall-E MEC Digital — pagina 3 della scheda tecnica"
+            }
+        ],
+        "updated": "2026-10-28T11:29:07+00:00",
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "<p>Variante digitale della linea Wall-E MEC, per chi preferisce un’interfaccia più aggiornata sullo stesso formato.</p>"
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Linea Wall-E MEC in versione Digital",
+                    "Alternativa al modello MEC RT standard"
+                ]
+            },
+            {
+                "type": "elenco",
+                "titolo": "Dalla scheda Wall-E MEC Digital",
+                "voci": [
+                    "Indicato per ristorazione, bar, servizi, negozi, beauty e commercio",
+                    "Scontrino digitale tramite QR code",
+                    "In scheda: Pay SoftPos"
+                ]
+            },
+            {
+                "type": "testo",
+                "titolo": "Registratori Telematici",
+                "testo": "<p><strong>DIGITAL</strong></p><p>Indicato per queste categorie:<br>Ristorazione · Bar · Servizi ·&nbsp;Negozi · Beauty · Commercio ·&nbsp;Soluzioni disponibili ·&nbsp;</p><p><strong style=\"font-size: 0.98rem;\">SCONTRINO DIGITALE</strong></p><p>Ogni scontrino può essere condiviso con il cliente&nbsp;in formato digitale tramite QR-Code, offrendo&nbsp;un’esperienza moderna, efficiente e sostenibile.</p><p>&nbsp;<strong>RCH PAY SOFT POS</strong><br>Possibile utilizzo diretto di RCH Pay SoftPos:&nbsp;basterà scaricarsi l'applicazione e ricevere&nbsp;pagamenti digitali sul proprio smartphone.<br>L’accredito avviene sul proprio conto corrente&nbsp;entro il giorno lavorativo successivo.</p>"
+            }
+        ]
+    },
+    {
+        "id": "custom-bigplus",
+        "brand": "Custom",
+        "model": "BIG PLUS N RT",
+        "category": "registratori",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/bigplus.webp",
+        "alt": "Registratore di cassa Custom BIG PLUS N RT",
+        "summary": "Registratore di cassa telematico Custom BIG PLUS N RT per negozi e attività di ristorazione.",
+        "features": [
+            "Registratore telematico nativo",
+            "Marchio Custom"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Registratore di cassa telematico Custom BIG PLUS N RT per negozi e attività di ristorazione."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Registratore telematico nativo",
+                    "Marchio Custom"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "custom-fusion",
+        "brand": "Custom",
+        "model": "Fusion",
+        "category": "touch",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/fusion.webp",
+        "alt": "Registratore touch Custom Fusion",
+        "summary": "Registratore touch RT della linea Custom Fusion, per un punto cassa con schermo e ingombro da banco.",
+        "features": [
+            "Sistema touch con funzione di registratore telematico",
+            "Adatto a banco negozio e banco bar"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Registratore touch RT della linea Custom Fusion, per un punto cassa con schermo e ingombro da banco."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Sistema touch con funzione di registratore telematico",
+                    "Adatto a banco negozio e banco bar"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "custom-daytona",
+        "brand": "Custom",
+        "model": "Daytona",
+        "category": "touch",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/daytona.jpeg",
+        "alt": "Terminale touch Custom, file daytona",
+        "summary": "Terminale touch Custom a doppio schermo, per operatore e cliente.",
+        "features": [
+            "Doppio display, operatore e cliente",
+            "Marchio Custom"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Terminale touch Custom a doppio schermo, per operatore e cliente."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Doppio display, operatore e cliente",
+                    "Marchio Custom"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "rch-at15",
+        "brand": "RCH",
+        "model": "AT15 Slim",
+        "category": "touch",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/at15.webp",
+        "alt": "Terminale Android RCH AT15 Slim",
+        "summary": "Terminale Android sottile per il punto cassa. In scheda è abbinabile al software cloud RCH ATS 3 e al backoffice XStore.",
+        "features": [
+            "Sistema Android per negozi, ristorazione, alimentari, beauty e hospitality",
+            "In scheda: uso con ATS 3, Invoice Box, Pay SoftPos e XStore",
+            "Si abbina a stampante fiscale, palmare e cassetto"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Terminale Android sottile per il punto cassa. In scheda è abbinabile al software cloud RCH ATS 3 e al backoffice XStore."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Sistema Android per negozi, ristorazione, alimentari, beauty e hospitality",
+                    "In scheda: uso con ATS 3, Invoice Box, Pay SoftPos e XStore",
+                    "Si abbina a stampante fiscale, palmare e cassetto"
+                ]
+            },
+            {
+                "type": "elenco",
+                "titolo": "Dalla scheda AT15 Slim",
+                "voci": [
+                    "Sistema Android per ristorazione, alimentari, negozi, beauty, hospitality e servizi",
+                    "In scheda: software cloud ATS 3, Invoice Box, Pay SoftPos e XStore",
+                    "Accessori indicati: stampanti, palmari e cassetti",
+                    "La scheda non riporta dimensioni o CPU"
+                ]
+            },
+            {
+                "type": "testo",
+                "titolo": "Scheda tecnica",
+                "testo": "Sistemi Android\nIndicato per queste categorie:\n\nRistorazione · Alimentari · Servizi\n\nNegozi · Beauty · Hospitality\n\nSoluzioni disponibili\n• ATS 3\nLa nuovissima soluzione software 100% cloud based.\nUna soluzione di semplice fruibilità grazie ad un front-end intuitivo.\nATS 3 è modulare utilizzabile su molteplici device ed è anche\nsincronizzabile multi-cassa e multi-negozio\n\n• RCH INVOICE BOX\nRCH InvoiceBox è il servizio in Cloud che consente di creare\nfatture elettroniche verso le aziende, i consumatori finali,\nla Pubblica Amministrazione e i soggetti esteri.\n\n• RCH PAY SOFT POS\nPossibile utilizzo diretto di RCH Pay SoftPos:\nbasterà scaricarsi l'applicazione e ricevere\npagamenti digitali sul proprio smartphone.\nL’accredito avviene sul proprio conto corrente\nentro il giorno lavorativo successivo.\n\n• RCH XSTORE\nRCH XStore è il backoffice in Cloud dedicato agli esercenti.\nUna dashboard sempre aggiornata per ottenere report in tempo\nreale sull’andamento dell’attività e monitorare il punto cassa.\n\nProfessionisti · Ambulanti\nIl servizio, consultabile anche in remoto da dispositivi mobile,\nconsente di raccogliere informazioni utili alla gestione del lavoro.\nArtigiani\n\nAccessori\n\nStampanti · Palmari · Cassetti"
+            }
+        ],
+        "pdf": "/assets/pdf/rch-at15.pdf",
+        "gallery": [
+            {
+                "src": "/assets/img/prodotti/gallery/rch-at15-1.jpg",
+                "alt": "RCH AT15 Slim — pagina 1 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-at15-2.jpg",
+                "alt": "RCH AT15 Slim — pagina 2 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/rch-at15-3.jpg",
+                "alt": "RCH AT15 Slim — pagina 3 della scheda tecnica"
+            }
+        ],
+        "scheda_testo": ""
+    },
+    {
+        "id": "rch-at15-print",
+        "brand": "RCH",
+        "model": "AT15 con Print! 3.0 RT",
+        "category": "touch",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/at15-print.webp",
+        "alt": "Sistema touch Android RCH con stampante Print 3.0 RT",
+        "summary": "Postazione completa: terminale touch Android e stampante fiscale Print! 3.0 RT.",
+        "features": [
+            "Touch Android e stampante telematica nello stesso punto cassa",
+            "Soluzione pronta per negozio o banco bar"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Postazione completa: terminale touch Android e stampante fiscale Print! 3.0 RT."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Touch Android e stampante telematica nello stesso punto cassa",
+                    "Soluzione pronta per negozio o banco bar"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "epson-fp81",
+        "brand": "Epson",
+        "model": "FP-81",
+        "category": "registratori",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/fp81.webp",
+        "alt": "Registratore Epson FP-81",
+        "summary": "Registratore di cassa Epson FP-81, da banco.",
+        "features": [
+            "Marchio Epson, fornitore ufficiale iCash",
+            "Formato da banco per il punto cassa"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Registratore di cassa Epson FP-81, da banco."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Marchio Epson, fornitore ufficiale iCash",
+                    "Formato da banco per il punto cassa"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "custom-digitale",
+        "brand": "Custom",
+        "model": "Scontrino digitale compatto",
+        "category": "registratori",
+        "audience": [
+            "negozi"
+        ],
+        "image": "/assets/img/prodotti/custom-digitale.jpeg",
+        "alt": "Stampante Custom per scontrino digitale",
+        "summary": "Soluzione Custom compatta per lo scontrino digitale.",
+        "features": [
+            "Formato compatto da banco",
+            "Scheda tecnica del portatile JSMART-N RT"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Soluzione Custom compatta per lo scontrino digitale. La scheda scaricabile è quella del portatile JSMART-N RT."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Formato compatto da banco",
+                    "Scheda tecnica del portatile JSMART-N RT"
+                ]
+            },
+            {
+                "type": "specifiche",
+                "titolo": "Dati della scheda JSMART-N RT",
+                "voci": [
+                    "La scheda scaricabile riguarda il portatile JSMART-N RT.",
+                    "Omologazioni: documento commerciale digitale, RT anche ambulante, XML 7, lotteria scontrini, firmware da remoto",
+                    "Tastiera: membrana, 29 tasti",
+                    "Display: LCD cliente e operatore 2x20",
+                    "Stampante: termica 58 mm, 80 mm/s, 203 dpi",
+                    "Batteria: litio 7,4 V, 1,7 Ah, circa 20.000 righe",
+                    "Giornale: microSD",
+                    "Dimensioni: 112 x 68 x 215 mm, 500 g",
+                    "Reparti: 30. Operatori: 8. Articoli: 1000 con EAN",
+                    "Temperature: da -10 °C a +45 °C"
+                ]
+            }
+        ],
+        "pdf": "/assets/pdf/custom-jsmart.pdf",
+        "gallery": [
+            {
+                "src": "/assets/img/prodotti/gallery/custom-digitale-1.jpg",
+                "alt": "Custom Scontrino digitale compatto — pagina 1 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/custom-digitale-2.jpg",
+                "alt": "Custom Scontrino digitale compatto — pagina 2 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/custom-digitale-3.jpg",
+                "alt": "Custom Scontrino digitale compatto — pagina 3 della scheda tecnica"
+            },
+            {
+                "src": "/assets/img/prodotti/gallery/custom-digitale-4.jpg",
+                "alt": "Custom Scontrino digitale compatto — pagina 4 della scheda tecnica"
+            }
+        ],
+        "scheda_testo": ""
+    },
+    {
+        "id": "cashmatic-460",
+        "brand": "Cashmatic",
+        "model": "460",
+        "category": "contante",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/cashmatic-460.webp",
+        "alt": "Cassa automatica Cashmatic 460",
+        "summary": "Cassa automatica Cashmatic 460, il formato più compatto della gamma da banco.",
+        "features": [
+            "Incasso e resto del contante",
+            "Formato compatto da banco",
+            "Marchio Cashmatic"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Cassa automatica Cashmatic 460, il formato più compatto della gamma da banco."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Incasso e resto del contante",
+                    "Formato compatto da banco",
+                    "Marchio Cashmatic"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "cashmatic-860",
+        "brand": "Cashmatic",
+        "model": "860",
+        "category": "contante",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/cashmatic-860.webp",
+        "alt": "Cassa automatica Cashmatic 860",
+        "summary": "Cassa automatica Cashmatic 860 per incasso e resto del contante, da banco.",
+        "features": [
+            "Incasso e resto del contante",
+            "Formato da banco della gamma Cashmatic",
+            "Marchio Cashmatic"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Cassa automatica Cashmatic 860 per incasso e resto del contante, da banco."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Incasso e resto del contante",
+                    "Formato da banco della gamma Cashmatic",
+                    "Marchio Cashmatic"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "cashmatic-1060",
+        "brand": "Cashmatic",
+        "model": "1060",
+        "category": "contante",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/cashmatic-1060.webp",
+        "alt": "Cassa automatica Cashmatic 1060",
+        "summary": "Cassa automatica Cashmatic 1060, il formato più ampio della gamma da banco.",
+        "features": [
+            "Incasso e resto del contante",
+            "Formato ampio da banco",
+            "Marchio Cashmatic"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Cassa automatica Cashmatic 1060, il formato più ampio della gamma da banco."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Incasso e resto del contante",
+                    "Formato ampio da banco",
+                    "Marchio Cashmatic"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "cashmatic-inpay",
+        "brand": "Cashmatic",
+        "model": "InPay",
+        "category": "contante",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/cashmatic-inpay.webp",
+        "alt": "Modulo Cashmatic InPay integrato nel banco",
+        "summary": "Modulo Cashmatic InPay integrato nel banco, per incasso e resto del contante.",
+        "features": [
+            "Incasso e resto del contante",
+            "Installazione integrata nel banco",
+            "Marchio Cashmatic"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Modulo Cashmatic InPay integrato nel banco, per incasso e resto del contante."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Incasso e resto del contante",
+                    "Installazione integrata nel banco",
+                    "Marchio Cashmatic"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "cashmatic-colonna",
+        "brand": "Cashmatic",
+        "model": "Colonna self-service",
+        "category": "contante",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/cashmatic-colonna.jpeg",
+        "alt": "Colonna self-service Cashmatic",
+        "summary": "Colonna self-service con modulo Cashmatic per il pagamento in contanti.",
+        "features": [
+            "Schermo verticale e modulo contante Cashmatic",
+            "Indicata per casse self-service"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Colonna self-service con modulo Cashmatic per il pagamento in contanti."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Schermo verticale e modulo contante Cashmatic",
+                    "Indicata per casse self-service"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "glory-ci5",
+        "brand": "Glory",
+        "model": "CI-5",
+        "category": "contante",
+        "audience": [
+            "negozi"
+        ],
+        "image": "/assets/img/prodotti/glory-ci5.jpeg",
+        "alt": "Riciclatore di contante Glory CI-5",
+        "summary": "Riciclatore Glory CI-5 per banconote e monete.",
+        "features": [
+            "Gestione automatica di banconote e monete da banco"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Riciclatore Glory CI-5 per banconote e monete."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Gestione automatica di banconote e monete da banco"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "kiosk",
+        "brand": "iCash",
+        "model": "Chiosco ordini self-service",
+        "category": "touch",
+        "audience": [
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/kiosk.jpg",
+        "alt": "Chiosco per ordinazione self-service",
+        "summary": "Totem da sala per ordinare e pagare in autonomia.",
+        "features": [
+            "Schermo verticale, stampante e terminale di pagamento",
+            "Per bar, ristoranti e locali con servizio rapido"
+        ],
+        "published": false,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Totem da sala per ordinare e pagare in autonomia."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Schermo verticale, stampante e terminale di pagamento",
+                    "Per bar, ristoranti e locali con servizio rapido"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": "",
+        "updated": "2026-11-05T10:13:12+00:00"
+    },
+    {
+        "id": "sunmi-k2",
+        "brand": "Sunmi",
+        "model": "K2",
+        "category": "touch",
+        "audience": [
+            "ristorazione",
+            "negozi"
+        ],
+        "image": "/assets/img/prodotti/sunmi-k2.png",
+        "alt": "Terminale self-service Sunmi K2",
+        "summary": "Terminale self-service Sunmi K2.",
+        "features": [
+            "Postazione self-service da banco"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Terminale self-service Sunmi K2."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Postazione self-service da banco"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    },
+    {
+        "id": "cassetto-flip-flop",
+        "brand": "Periferica",
+        "model": "Cassetto portavalori Flip Flop",
+        "category": "periferiche",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/cassetto.jpg",
+        "alt": "Cassetto portavalori per banconote e monete",
+        "summary": "Cassetto portavalori con scomparti per banconote e monete e chiusura a chiave. Marca e misure non sono nel file.",
+        "meta_title": "",
+        "meta_description": "",
+        "pdf": "",
+        "gallery": [],
+        "updated": "2026-11-05T10:05:01+00:00",
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "<p>Cassetto portavalori con scomparti per banconote e monete e chiusura a chiave. Marca e misure non sono nel file.</p>"
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Apertura collegabile al registratore o al POS",
+                    "Marca e dimensioni da definire in preventivo"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "portamonete",
+        "brand": "Periferica",
+        "model": "Cassetto portamonete",
+        "category": "periferiche",
+        "audience": [
+            "negozi",
+            "ristorazione"
+        ],
+        "image": "/assets/img/prodotti/portamonete.jpg",
+        "alt": "Cassetto portamonete",
+        "summary": "Inserto portamonete di formato medio, da abbinare al cassetto del punto cassa.",
+        "features": [
+            "Scomparti per il resto in monete",
+            "Formato medio"
+        ],
+        "published": true,
+        "blocks": [
+            {
+                "type": "testo",
+                "titolo": "Descrizione",
+                "testo": "Inserto portamonete di formato medio, da abbinare al cassetto del punto cassa."
+            },
+            {
+                "type": "elenco",
+                "titolo": "Caratteristiche",
+                "voci": [
+                    "Scomparti per il resto in monete",
+                    "Formato medio"
+                ]
+            }
+        ],
+        "gallery": [],
+        "pdf": "",
+        "scheda_testo": ""
+    }
+]
