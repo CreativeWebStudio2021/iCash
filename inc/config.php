@@ -47,8 +47,6 @@ function seo_allow_index(): bool
 
 const PHONE_PRIMARY = '0671058165';
 const PHONE_PRIMARY_LABEL = '06 7105 8165';
-const PHONE_SECONDARY = '067914510';
-const PHONE_SECONDARY_LABEL = '06 7914 510';
 /** Numero cellulare indicato in presentazione. Da confermare come WhatsApp Business. */
 const WHATSAPP_E164 = '393792475200';
 const WHATSAPP_LABEL = '379 247 5200';

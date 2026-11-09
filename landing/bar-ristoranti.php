@@ -123,8 +123,7 @@ $wa = wa_link('Buongiorno, vorrei un preventivo per cassa e gestionale per bar o
       <div class="contact-facts">
         <div>
           <h2>Telefono</h2>
-          <p><a data-track="phone" href="<?= e(tel_link(PHONE_PRIMARY)) ?>"><?= e(PHONE_PRIMARY_LABEL) ?></a><br>
-          <a data-track="phone" href="<?= e(tel_link(PHONE_SECONDARY)) ?>"><?= e(PHONE_SECONDARY_LABEL) ?></a></p>
+          <p><a data-track="phone" href="<?= e(tel_link(PHONE_PRIMARY)) ?>"><?= e(PHONE_PRIMARY_LABEL) ?></a></p>
         </div>
         <div>
           <h2>WhatsApp</h2>

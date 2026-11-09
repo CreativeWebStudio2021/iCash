@@ -31,7 +31,6 @@ require __DIR__ . '/inc/header.php';
           <li>
             <span>Telefono</span>
             <a data-track="phone" href="<?= e(tel_link(PHONE_PRIMARY)) ?>"><?= e(PHONE_PRIMARY_LABEL) ?></a>
-            <a data-track="phone" href="<?= e(tel_link(PHONE_SECONDARY)) ?>"><?= e(PHONE_SECONDARY_LABEL) ?></a>
           </li>
           <li>
             <span>WhatsApp</span>

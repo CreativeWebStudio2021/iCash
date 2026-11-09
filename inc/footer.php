@@ -16,8 +16,7 @@ $waGeneric = wa_link('Buongiorno, vorrei informazioni sui vostri registratori di
     </div>
     <div>
       <h2>Contatti</h2>
-      <p><a data-track="phone" href="<?= e(tel_link(PHONE_PRIMARY)) ?>"><?= e(PHONE_PRIMARY_LABEL) ?></a><br>
-      <a data-track="phone" href="<?= e(tel_link(PHONE_SECONDARY)) ?>"><?= e(PHONE_SECONDARY_LABEL) ?></a></p>
+      <p><a data-track="phone" href="<?= e(tel_link(PHONE_PRIMARY)) ?>"><?= e(PHONE_PRIMARY_LABEL) ?></a></p>
       <p><a href="mailto:<?= e(MAIL_PUBLIC) ?>"><?= e(MAIL_PUBLIC) ?></a></p>
       <p><a data-track="whatsapp" href="<?= e($waGeneric) ?>" target="_blank" rel="noopener">WhatsApp <?= e(WHATSAPP_LABEL) ?></a></p>
     </div>
