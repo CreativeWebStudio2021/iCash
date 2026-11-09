@@ -31,13 +31,26 @@ admin_layout_start('Prodotti', 'prodotti');
       </div>
     </section>
 
-    <section class="panel">
+    <?php
+    $landingBase = rtrim(public_base(), '/');
+    $landings = [
+        ['label' => 'Registratori telematici', 'path' => '/landing/registratori-telematici'],
+        ['label' => 'Bar e ristoranti', 'path' => '/landing/bar-ristoranti'],
+    ];
+    ?>
+    <section class="panel panel-accent-prodotti">
       <h2>Landing page</h2>
-      <p class="hint">Pagine dedicate per Ads e campagne.</p>
-      <p class="save-row" style="margin:0">
-        <a class="btn ghost" href="/landing/registratori-telematici" target="_blank" rel="noopener">Registratori telematici</a>
-        <a class="btn ghost" href="/landing/bar-ristoranti" target="_blank" rel="noopener">Bar e ristoranti</a>
-      </p>
+      <p class="hint">URL da usare in Ads e campagne. Si aprono in una nuova scheda.</p>
+      <ul class="landing-url-list">
+        <?php foreach ($landings as $landing):
+            $url = $landingBase . $landing['path'];
+            ?>
+          <li>
+            <strong><?= e($landing['label']) ?></strong>
+            <a class="landing-url" href="<?= e($landing['path']) ?>" target="_blank" rel="noopener"><?= e($url) ?></a>
+          </li>
+        <?php endforeach; ?>
+      </ul>
     </section>
 
     <p class="hint" id="ordine-msg">L’ordine di questa tabella è quello del catalogo sul sito. Trascina la riga, usa le frecce oppure scrivi la posizione.</p>

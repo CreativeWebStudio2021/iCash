@@ -59,7 +59,7 @@ function admin_layout_start(string $title, string $section = 'prodotti'): void
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/admin.css?v=20261109e">
+  <link rel="stylesheet" href="/assets/css/admin.css?v=20261109f">
 </head>
 <body class="adm-shell">
   <header class="bar">
